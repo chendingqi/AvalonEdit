@@ -228,8 +228,8 @@ namespace ICSharpCode.AvalonEdit.Utils
 		[Conditional("DEBUG")]
 		public static void CheckIsFrozen(Freezable f)
 		{
-			if (f != null && !f.IsFrozen)
-				Debug.WriteLine("Performance warning: Not frozen: " + f.ToString());
+			//if (f != null && !f.IsFrozen)
+			//	Debug.WriteLine("Performance warning: Not frozen: " + f.ToString());
 		}
 
 		[Conditional("DEBUG")]
